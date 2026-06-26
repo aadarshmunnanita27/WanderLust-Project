@@ -213,6 +213,11 @@ npm start
 ### Mobile View
 
 ![Mobile View](./screenshots/mobileview.jpeg)
+
+---
+
+### Mobile View
+
 ![Mobile View](./screenshots/mobileview2.jpeg)
 
 ---
