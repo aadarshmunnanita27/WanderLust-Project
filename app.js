@@ -77,7 +77,7 @@ const sessionOptions = {
 };
 
 // app.get("/",(req, res) => {
-//     res.send("Hi, I am grooti");
+//     res.send("Hi, I am ravi");
 // })
 
 app.use(session( sessionOptions ));
@@ -105,6 +105,10 @@ app.get("/demouser", async (req, res) => {
     let registeredUser = await User.register(fakeUser, "helloworld");
     res.send(registeredUser);
 });
+
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+}); 
 
 app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
