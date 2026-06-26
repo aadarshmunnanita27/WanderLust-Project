@@ -200,7 +200,7 @@ npm start
 
 ### Create Listing
 
-![Create Listing](./screenshots/create-listing.png)
+![Create Listing](./screenshots/Create Listing.png)
 
 ---
 
