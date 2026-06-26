@@ -234,7 +234,7 @@ npm start
 * Secure route protection using custom middleware.
 * Form validation using Joi.
 * Flash messaging for user feedback.
-* MongoDB Atlas cloud database.
+* MongoDB Atlas Cloud database.
 * Deployment on Render.
 
 ---
